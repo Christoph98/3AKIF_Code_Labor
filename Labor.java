@@ -4,6 +4,7 @@ public class Labor
     private int stock;
     private boolean beamer;
     private int anzPlatze;
+    private int Fenster;
     
 public String gebaude()
 {
@@ -25,6 +26,10 @@ public int anzPlatze()
     return anzPlatze;
 }
 
+public int Fenster()
+{
+    return Fenster;
+}
 
 public void setgebaude(String neuGebaude)
 {
@@ -44,5 +49,10 @@ public void setbeamer(boolean neubeamer)
 public void setanzPlatze(int neuanzPlatze)
 {
     anzPlatze = neuanzPlatze;
+}
+
+public void setFenster(int neuFenster)
+{
+    Fenster = neuFenster;
 }
 }
